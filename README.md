@@ -136,4 +136,5 @@ Proyek ini merupakan bagian dari tugas akademik.
 Lihat folder `outdate/referensi/` untuk paper akademik tentang:
 - Prediksi okupansi tempat parkir
 - Aplikasi Rantai Markov dalam sistem lalu lintas
+
 - Sistem multiagen kooperatif untuk parkir
