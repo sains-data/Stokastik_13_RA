@@ -5,7 +5,7 @@
 Proyek ini mengimplementasikan **model Rantai Markov** untuk menganalisis dan memprediksi pola okupansi tempat parkir. Dengan menganalisis data historis parkir, kita dapat menentukan probabilitas transisi antar berbagai state okupansi dan memprediksi ketersediaan parkir di masa depan.
 
 **Kelompok:** Kelompok 13 RA  
-**Tanggal:** November 2025
+**Tanggal:** Oktober-November 2025
 
 ---
 
@@ -138,3 +138,4 @@ Lihat folder `outdate/referensi/` untuk paper akademik tentang:
 - Aplikasi Rantai Markov dalam sistem lalu lintas
 
 - Sistem multiagen kooperatif untuk parkir
+
