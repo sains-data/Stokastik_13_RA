@@ -77,3 +77,20 @@ colnames(transition_table) <- c("From",
 
 transition_table
 ```
+
+# Calculate P^2 (2-step transition probabilities)
+```{r}
+# Extract the probability matrix (exclude the 'From' column)
+P_matrix <- as.matrix(transition_table[, -1])
+rownames(P_matrix) <- transition_table$From
+
+# Calculate P^2 by matrix multiplication
+P_squared <- P_matrix %*% P_matrix
+
+# Convert back to data frame for display
+P2_table <- as.data.frame(P_squared)
+P2_table <- cbind(From = rownames(P2_table), P2_table)
+rownames(P2_table) <- NULL
+
+P2_table
+```
